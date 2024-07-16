@@ -30,8 +30,7 @@ public class Codec {
                 queue.add(node.right);
             }
         }
-        
-        // Remove the trailing comma and close the bracket
+    
         sb.setLength(sb.length() - 1);
         sb.append("]");
         return sb.toString();
